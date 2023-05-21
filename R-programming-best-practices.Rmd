@@ -3,12 +3,12 @@ title: "R software development - best practices"
 author: "Ionut Dragomir"
 date: "2023-05-20"
 output:
+  pdf_document: default
   html_document:
     toc: yes
     toc_float: yes
     number_section: yes
     theme: united
-  pdf_document: default
 urlcolor: blue
 ---
 
@@ -434,11 +434,11 @@ Comprising your function in an R package ensures reproducibility and ease of use
 # References
 
 1.  [Google's R Style Guide](https://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html)
-2.  [Advanced R - Hadley Wickham](http://adv-r.had.co.nz/) (Good overview of R software development foundations and styling)
+2.  [Advanced R - Hadley Wickham](http://adv-r.had.co.nz/) (Summary of R styling and software development foundations)
 3.  [Function documentation with roxygen2 - CRAN](https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html)
 3.  [Types of testing in software development - Atlassian](https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing)
 4.  [TDD and CI](https://www.atlassian.com/continuous-delivery/continuous-integration)
-5.  [Testing basics in R - r-pkgs](https://r-pkgs.org/testing-basics.html) - general theory and basics tutorial about unit testing in R
+5.  [Testing basics in R - r-pkgs](https://r-pkgs.org/testing-basics.html) (General overview of unit testing in R)
 6.  R packages
     a.  [lintr](https://cran.r-project.org/web/packages/lintr/index.html)
     b.  [formatR](https://cran.r-project.org/web/packages/formatR/index.html)
